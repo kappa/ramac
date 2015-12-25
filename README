@@ -1,0 +1,13 @@
+Pure JavaScript autocompletion control.
+
+Pretty comprehensive but rather old. For example, it still has
+checks for IE5 (and refuses installation). And the development stopped
+before Google Chrome became available. Other than that, it is a piece
+of very well debugged code that worked unmodified in production for
+many millions of daily users for several years.
+
+Usage:
+<script type=text/javascript src=ramac.js></script>
+<script type=text/javascript>
+ramac_install(document.forms.form1.input1, '/cgi-bin-perl/ramac.pl?prefix=');
+</script>
